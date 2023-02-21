@@ -19,6 +19,14 @@ Aşağıdakileri yapın:
 
    İPUCU: fonksiyon oluşturmaya gerek yok
 */
+const surucuYasi = 19 
+  if (18<surucuYasi){
+    console.log ('TRUE')
+  } else {
+    console.log ('FALSE')
+  }
+
+ 
 
 
 
@@ -33,6 +41,16 @@ Aşağıdakileri yapınız:
 
    İPUCU: fonksiyon oluşturmaya gerek yok
 */
+var birinciDeger = 5
+const ikinciDegeri = 8
+if (birinciDeger<ikinciDegeri){
+  console.log('İkinci Değeri Seç');
+}
+else {
+  console.log('İkinci Değeri Seç');
+  var birinciDeger =12
+}
+console.log(birinciDeger)
 
 
 
@@ -48,7 +66,10 @@ Aşağıdakileri yapın:
 
    İPUCU: Number metoduna bakabilirsin
 */
-
+var yil = '1999'
+var yil = +'1999'; {
+  console.log(yil);
+}
 
 
 
@@ -61,8 +82,11 @@ Aşağıdakileri yaparak carpma isimli fonksiyonu tamamlayın:
    3. console.log(carpma(7,4)) ile yazdığınız fonsiyonu test edin. Console'da sonucu 28 olarak görmelisiniz.
 */
 
-function carpma(/*buraya kodunu yazabilirsin*/){
-  /*buraya kodunu yazabilirsin*/
+var fonksiyonum = function carpma(a,b){
+  return a*b ;
+}
+{
+  console.log (fonksiyonum(7,4));
 }
 
 
@@ -77,10 +101,12 @@ Aşağıdakileri yapın:
  3. Hesaplanan köpeğin yaşını dönün.
  */
 
-function kopeginYasi(/*buraya kodunu yazabilirsin*/){
-  /*buraya kodunu yazabilirsin*/
+var kopek = function kopeginYasi(a){
+  return a*7;
 }
-
+{
+  console.log(kopek(2))
+}
 
 
 /* Görev 3 */
@@ -127,9 +153,13 @@ Aşağdaki milDonusturucu fonksiyonunu aşağıdakileri kullanarak tamamlayın:
 3. Mil değerini geri dönün
 */
 
-function milDonusturucu(/*buraya kodunu yazabilirsin*/){
-  /*buraya kodunu yazabilirsin*/
+var mil = function milDonusturucu(km){
+  return km*0.62137 
 }
+{
+  console.log(mil(5));
+}
+
 
 
 
@@ -143,10 +173,12 @@ Aşağıdakileri feetDonusturucu fonsiyonunu kullanarak yapın:
 Google'da arama ipucu: "feet cm dönüştürme"
 */
 
-function feetDonusturucu(/*buraya kodunu yazabilirsin*/){
-  /*buraya kodunu yazabilirsin*/
+var feet =function feetDonusturucu(cm){
+return cm*0.3937
 }
-
+{
+  console.log (feet(8))
+}
 
 
 /* Görev 5 : 5 küçük maymun yatakta zıplamış şarkısını çocuklar için hazırladığımızı varsayalım. https://www.youtube.com/watch?v=e4EJ34xnlxk */
@@ -182,9 +214,9 @@ Aşağdakileri notHesapla fonksiyonunda yapın.
  dönün
 */
 
-function notHesapla(/*buraya kodunu yazabilirsin*/){
-/*buraya kodunu yazabilirsin*/
-}
+function notHesapla(a);
+
+
 
 
 
